@@ -3,6 +3,7 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #fff5d7;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -111,4 +112,14 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* for fade in  */
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.fade-in.visible {
+opacity: 1;
 }
