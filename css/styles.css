@@ -97,6 +97,12 @@ a:visited {
     min-height: 100vh;
 }
 
+.icon {
+    width: 10;
+    height: 10;
+    padding: 1;
+}
+
 footer {
     background: #fff5d7;
     color: #333;
