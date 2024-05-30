@@ -13,7 +13,7 @@
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="projects.php">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="contacts.php">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -22,37 +22,45 @@
         <h2>My Projects</h2>
         <div class="projects">
             <?php
-            // Example array of projects
             $projects = [
                 [
-                    'title' => 'Project 1',
-                    'description' => 'Description of project 1.',
+                    'title' => 'University Projects',
+                    'url' => 'projects/UniversityProjects.php',
+                    'description' => 'Some Projects Done as A part of University',
                     'image' => 'images/project1.jpg'
                 ],
                 [
-                    'title' => 'Project 2',
-                    'description' => 'Description of project 2.',
+                    'title' => 'Personal Projects',
+                    'url' => 'projects/PersonalProjects.php',
+                    'description' => 'Links to Some of my Personal Projects',
                     'image' => 'images/project2.jpg'
                 ],
                 [
-                    'title' => 'Project 3',
-                    'description' => 'Description of project 3.',
+                    'title' => 'CBA Internship Projects',
+                    'url' => 'projects/CBAInternshipProjects.php',
+                    'description' => 'Tasks done as a part of my CBA Internship',
+                    'image' => 'images/project3.jpg'
+                ],
+                [
+                    'title' => 'CPMSoc - Penguin Contest',
+                    'url' => 'projects/CPMSocPenguin.php',
+                    'description' => 'Some Tasks done as a part of a competition to Score the most based on questions put through.',
                     'image' => 'images/project3.jpg'
                 ]
             ];
 
-            // Loop through projects and display them
             foreach ($projects as $project) {
                 echo '<div class="project">';
-                echo '<img src="' . $project['image'] . '" alt="' . $project['title'] . '">';
-                echo '<h3>' . $project['title'] . '</h3>';
+                echo '<h2><a href="' . $project['url'] . '">' . $project['title'] . '</a></h2>';
                 echo '<p>' . $project['description'] . '</p>';
+                echo '<img src="' . $project['image'] . '" alt="' . $project['title'] . '">';
                 echo '</div>';
             }
             ?>
         </div>
     </div>
 
+    
     <footer>
         <p>&copy; 2024 Niranjana Arun Menon. All rights reserved.</p>
     </footer>

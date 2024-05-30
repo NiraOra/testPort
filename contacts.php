@@ -17,13 +17,14 @@
             </ul>
         </nav>
     </header>
+  
+  <div class="container">
+      <h2>Contants</h2>
+      <p>Stuff to add: LinkedIn, Github, Repl.It (?), And also a resume </p>
+  </div>
 
-    <div class="container">
-        <h2>About Me</h2>
-        <p>Hello! I'm a university student majoring in Aritificial Intelligence at UNSW, Sydney. I have a passion for AI, specifically game theory and neural networks, and I love working on projects that involve data modelling. This portfolio showcases some of my work.</p>
-    </div>
-
-    <footer>
+  
+  <footer>
         <p>&copy; 2024 Niranjana Arun Menon. All rights reserved.</p>
     </footer>
 </body>

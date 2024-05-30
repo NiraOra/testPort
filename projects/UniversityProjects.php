@@ -13,14 +13,14 @@
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="projects.php">Projects</a></li>
-                <li><a href="contacts.php">Contact</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <div class="container">
-        <h2>About Me</h2>
-        <p>Hello! I'm a university student majoring in Aritificial Intelligence at UNSW, Sydney. I have a passion for AI, specifically game theory and neural networks, and I love working on projects that involve data modelling. This portfolio showcases some of my work.</p>
+        <h2>My COMP2511 project -> Satellite</h2>
+        <p>whatever comes here is here</p>
     </div>
 
     <footer>
