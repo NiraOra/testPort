@@ -18,9 +18,10 @@
     </footer>
 </body>
 </html>
-
+<script src="/../js/script.js"></script>
+<!-- 
 <script>
     $(document).ready(function() {
         $('#main-container').addClass('show');
     });
-</script>
+</script> -->
